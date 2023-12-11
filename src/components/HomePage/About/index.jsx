@@ -23,7 +23,7 @@ const About = () => {
             ))}
           </div>
           <div className={styles.buttons}>
-            <a download href='assets/pdf/Dinesh-Cv.pdf' className={`${styles.btn} button button--flex`}>
+            <a download href='assets/pdf/Dinesh_Resume.pdf' className={`${styles.btn} button button--flex`}>
               Download CV <i className='bx bxs-download'></i>
             </a>
           </div>
