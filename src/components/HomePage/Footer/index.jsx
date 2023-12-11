@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={`${styles.container} container grid`}>
           <div>
             <h1 className={styles.title}>Dinesh</h1>
-            <span className={styles.subtitle}>Frontend developer</span>
+            <span className={styles.subtitle}>Software Engineer</span>
           </div>
 
           <ul className={styles.links}>

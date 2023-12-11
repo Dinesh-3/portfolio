@@ -9,7 +9,6 @@ export default function Home() {
     <>
       <MetaHead meta={content.meta} />
       <HomePage content={content} />
-      <Script src='/assets/js/swiper-bundle.min.js' defer />
       <Script src='/assets/js/main.js' defer />
     </>
   );

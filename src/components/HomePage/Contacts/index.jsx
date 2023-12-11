@@ -94,7 +94,7 @@ const Contacts = () => {
 
           <div>
             <a className='button button--flex' onClick={handleSubmit}>
-              Send Message
+              Submit
               <i className={`uil uil-message button__icon`}></i>
             </a>
           </div>

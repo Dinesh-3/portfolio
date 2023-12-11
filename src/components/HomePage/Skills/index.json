@@ -10,7 +10,7 @@
   "groups": [
     {
       "id": "frontend",
-      "title": "Frontend developer",
+      "title": "Frontend Development",
       "description": "More than 3 years",
       "skills": [
         {
@@ -29,7 +29,7 @@
     },
     {
       "id": "backend",
-      "title": "Backend developer",
+      "title": "Backend development",
       "description": "More than 2 years",
       "skills": [
         {
