@@ -1,0 +1,413 @@
+$bg-gray: rgb(249, 249, 249);
+$primary-color: #022b50;
+$dark-green: #1e741a;
+
+// Bootstrap Overrides
+$primary: #F6D949;
+$secondary: #005D5D;
+$warning: #F24535;
+
+$white: #ffffff;
+$black: #161616;
+
+// Our OLD colors
+$blue: #002D9C;
+$yellow: #F4CF1B;
+$orange: #F7941D;
+$red: #F24535;
+$green: #007D79;
+$tan: #F8F6EF;
+$gray-darkest: #58595B;
+$gray-middle: #808285;
+$gray-light: #BCBEC0;
+$gray-lightest: #F1F2F2;
+
+$teal: #08BBB8;
+
+//COLOR GRID
+$yellow-100: #C24F00;
+$yellow-90: #E28700;
+$yellow-80: #F1B000;
+$yellow-70: #F3C400;
+$yellow-60: #F4CF1B;
+$yellow-50: #F6D949;
+$yellow-40: #F8E276;
+$yellow-30: #FBECA4;
+$yellow-20: #FDF5D1;
+$yellow-10: #FEFAE8;
+
+$orange-100: #A62700;
+$orange-90: #CB4100;
+$orange-80: #DA6600;
+$orange-70: #F07F00;
+$orange-60: #F7941D;
+$orange-50: #F9A94A;
+$orange-40: #FABF77;
+$orange-30: #FCD4A5;
+$orange-20: #FDEAD2;
+$orange-10: #FEF4E8;
+
+$red-100: #470F00;
+$red-90: #961200;
+$red-80: #B81500;
+$red-70: #E5220F;
+$red-60: #F24535;
+$red-50: #F56A5D;
+$red-40: #F78F86;
+$red-30: #FAB5AE;
+$red-20: #FCDAD7;
+$red-10: #FEECEB;
+
+$dark-red-100: #2D0709;
+$dark-red-90: #520408;
+$dark-red-80: #750E13;
+$dark-red-70: #A2191F;
+$dark-red-60: #DA1E28;
+$dark-red-50: #FA4D56;
+$dark-red-40: #FF8389;
+$dark-red-30: #FFB3B8;
+$dark-red-20: #FFD7D9;
+$dark-red-10: #FFF1F1;
+
+$magenta-100: #2A0A18;
+$magenta-90: #510224;
+$magenta-80: #740937;
+$magenta-70: #9F1853;
+$magenta-60: #D12771;
+$magenta-50: #EE5396;
+$magenta-40: #FF7EB6;
+$magenta-30: #FFAFD2;
+$magenta-20: #FFD6E8;
+$magenta-10: #FFF0F7;
+
+$purple-100: #1C0F30;
+$purple-90: #31135E;
+$purple-80: #491D8B;
+$purple-70: #6929C4;
+$purple-60: #8A3FFC;
+$purple-50: #A56EFF;
+$purple-40: #BE95FF;
+$purple-30: #D4BBFF;
+$purple-20: #E8DAFF;
+$purple-10: #F6F2FF;
+
+$blue-100: #001141;
+$blue-90: #001D6C;
+$blue-80: #002D9C;
+$blue-70: #0043CE;
+$blue-60: #0F62FE;
+$blue-50: #4589FF;
+$blue-40: #78A9FF;
+$blue-30: #A6C8FF;
+$blue-20: #D0E2FF;
+$blue-10: #EDF5FF;
+
+$cyan-100: #061727;
+$cyan-90: #012749;
+$cyan-80: #003A6D;
+$cyan-70: #00539A;
+$cyan-60: #3375AE;
+$cyan-50: #6698C2;
+$cyan-40: #99BAD7;
+$cyan-30: #CCDDEB;
+$cyan-20: #E5EEF5;
+$cyan-10: #E5F6FF;
+
+$teal-100: #081A1C;
+$teal-90: #022B30;
+$teal-80: #004144;
+$teal-70: #005D5D;
+$teal-60: #007D79;
+$teal-50: #009D9A;
+$teal-40: #08BDBA;
+$teal-30: #46CDCB; //ORIG: #3DDBD9;
+$teal-20: #83DEDD; //ORIG: #9EF0F0;
+$teal-10: #C1EFEE; //ORIG: #D9FBFB;
+$teal-01: #E6F8F8;
+
+$green-100: #071908;
+$green-90: #022D0D;
+$green-80: #044317;
+$green-70: #0E6027;
+$green-60: #198038;
+$green-50: #24A148;
+$green-40: #42BE65;
+$green-30: #6FDC8C;
+$green-20: #A7F0BA;
+$green-10: #DEFBE6;
+
+$cool-gray-100: #121619;
+$cool-gray-90: #21272A;
+$cool-gray-80: #343A3F;
+$cool-gray-70: #4D5358;
+$cool-gray-60: #697077;
+$cool-gray-50: #878D96;
+$cool-gray-40: #A2A9B0;
+$cool-gray-30: #C1C7CD;
+$cool-gray-20: #DDE1E6;
+$cool-gray-10: #F2F4F8;
+
+$gray-100: #161616;
+$gray-90: #262626;
+$gray-80: #393939;
+$gray-70: #525252;
+$gray-60: #6F6F6F;
+$gray-50: #8D8D8D;
+$gray-40: #A8A8A8;
+$gray-30: #C6C6C6;
+$gray-20: #E0E0E0;
+$gray-10: #F4F4F4;
+
+$warm-gray-100: #171414;
+$warm-gray-90: #272525;
+$warm-gray-80: #3C3838;
+$warm-gray-70: #565151;
+$warm-gray-60: #736F6F;
+$warm-gray-50: #8F8B8B;
+$warm-gray-40: #ADA8A8;
+$warm-gray-30: #CAC5C4;
+$warm-gray-20: #E5E0DF;
+$warm-gray-10: #F7F3F2;
+
+$brown-100: #2D1700;
+$brown-90: #492D0B;
+$brown-80: #6C461B;
+$brown-70: #936531;
+$brown-60: #BF9652;
+$brown-50: #CFB57A;
+$brown-40: #DECCA3;
+$brown-30: #ECE3CC;
+$brown-20: #F3EEE0;
+$brown-10: #F8F6EF;
+
+
+/* -------------- */
+// NAMED COLORS
+/* -------------- */
+// Filepines
+$evergreen: $teal-90;
+$pine: $teal-80;
+$spruce: $teal-70;
+$moss: $teal-60;
+$lake: $teal-50;
+$gatorade: $teal-20;
+
+// Yellows
+$sunflower: $yellow-60;
+$bee: $yellow-50;
+$margarine: $yellow-40;
+$butter: $yellow-30;
+
+// Browns
+$sand: $brown-40;
+$salt: $brown-10;
+
+// Cool Grays
+$cave: $cool-gray-100;
+$coal: $cool-gray-90;
+$ash: $cool-gray-80;
+$stone: $cool-gray-30;
+$mist: $cool-gray-10;
+
+// Type Grays
+$type-color-primary: $black;
+$type-color-secondary: $gray-70;
+$type-color-tertiary: $gray-50;
+
+
+
+// CSS VARS 
+// Removed warm-gray, magenta, and dark-red variables due to lack of usage in any digital project. Those color scales should still be present in SASS variables, but don't need to be output as CSS. Also stripped individual colors that have not yet been used, as well as keeping the color scales that are in the brand colors design system for web.
+:root {
+    --white: #ffffff;
+    --black: #161616;
+    
+    --yellow-70: #F3C400;
+    --yellow-60: #F4CF1B;
+    --yellow-50: #F6D949;
+    --yellow-40: #F8E276;
+    --yellow-30: #FBECA4;
+
+    --orange-70: #F07F00;
+    --orange-60: #F7941D;
+    --orange-50: #F9A94A;
+    --orange-40: #FABF77;
+    --orange-30: #FCD4A5;
+
+    --red-70: #E5220F;
+    --red-60: #F24535;
+    --red-50: #F56A5D;
+    --red-40: #F78F86;
+    --red-30: #FAB5AE;
+
+    --purple-80: #491D8B;
+    --purple-70: #6929C4;
+    --purple-60: #8A3FFC;
+    --purple-50: #A56EFF;
+    --purple-40: #BE95FF;
+    --purple-30: #D4BBFF;
+    --purple-20: #E8DAFF;
+
+    --blue-90: #001D6C;
+    --blue-70: #0043CE;
+    --blue-60: #0F62FE;
+    --blue-50: #4589FF;
+    --blue-40: #78A9FF;
+    --blue-30: #A6C8FF;
+
+    --cyan-90: #012749;
+    --cyan-80: #003A6D;
+    --cyan-70: #00539A;
+    --cyan-60: #3375AE;
+    --cyan-50: #6698C2;
+    --cyan-40: #99BAD7;
+    --cyan-30: #CCDDEB;
+    --cyan-20: #E5EEF5;
+    --cyan-10: #E5F6FF;
+
+    --teal-70: #005D5D;
+    --teal-60: #007D79;
+    --teal-50: #009D9A;
+    --teal-40: #08BDBA;
+    --teal-30: #46CDCB;
+    --teal-20: #83DEDD;
+    --teal-10: #C1EFEE;
+    --teal-01: #E6F8F8;
+
+    --green-60: #198038;
+    --green-50: #24A148;
+    --green-40: #42BE65;
+    --green-30: #6FDC8C;
+    --green-20: #A7F0BA;
+    --green-10: #DEFBE6;
+
+    --cool-gray-100: #121619;
+    --cool-gray-90: #21272A;
+    --cool-gray-80: #343A3F;
+    --cool-gray-70: #4D5358;
+    --cool-gray-60: #697077;
+    --cool-gray-50: #878D96;
+    --cool-gray-40: #A2A9B0;
+    --cool-gray-30: #C1C7CD;
+    --cool-gray-20: #DDE1E6;
+    --cool-gray-10: #F2F4F8;
+
+    --gray-80: #393939;
+    --gray-70: #525252;
+    --gray-60: #6F6F6F;
+    --gray-50: #8D8D8D;
+    --gray-40: #A8A8A8;
+    --gray-30: #C6C6C6;
+    --gray-20: #E0E0E0;
+
+    --brown-40: #DECCA3;
+    --brown-30: #ECE3CC;
+    --brown-20: #F3EEE0;
+    --brown-10: #F8F6EF;
+
+    /* ##################### */
+    // NEW THEME
+    --color-primary: var(--yellow-50);
+    --color-secondary: var(--teal-70);
+    
+    --type-color-secondary: #525252;
+    /* ##################### */
+}
+// END CSS VARS
+
+/* NEW GRADIENTS */
+$gradient-blue-1: #012749;
+$gradient-blue-2: #003A6D;
+$gradient-blue-3: #033B6C;
+$gradient-red-1: #E5695D;
+$gradient-teal-1: #005D5D;
+$gradient-teal-2: #009D9A;
+$gradient-teal-3: #008784;
+$gradient-teal-4: #46CDCB;
+$gradient-teal-5: #BFE1E0;
+$gradient-teal-6: #F1FBFB;
+$bg-gradient-blb: linear-gradient(90deg, $gradient-blue-1, $gradient-blue-2);
+$bg-gradient-dtt: linear-gradient(90deg, $gradient-teal-1, $gradient-teal-2);
+$bg-gradient-tlt: linear-gradient(90deg, $gradient-teal-3, $gradient-teal-4);
+$bg-gradient-ltw: linear-gradient(90deg, $gradient-teal-5, $gradient-teal-6);
+$bg-gradient-br: linear-gradient(90deg, $gradient-blue-3, $gradient-red-1);
+
+
+// Default @include bg-gradient() will give you the 90deg blue to red gradient.
+// Pass in direction and custom colors or use a gradient theme:
+// THEMES (name - design system name)
+// blb          -blue-light blue
+// dtt          -Dark-teal to teal
+// tlt          -Teal to light teal
+// ltw          -Light teal to white
+// br           -blue to red
+@mixin bg-gradient($direction: 90deg, $color1: $gradient-blue-3, $color2: $gradient-red-1, $gradient-theme: null) {
+    @if $gradient-theme {
+        @if $gradient-theme == blb {
+            background: linear-gradient($direction, $gradient-blue-1, $gradient-blue-2);
+        } @else if $gradient-theme == dtt {
+            background: linear-gradient($direction, $gradient-teal-1, $gradient-teal-2);
+        } @else if $gradient-theme == tlt {
+            background: linear-gradient($direction, $gradient-teal-3, $gradient-teal-4);
+        } @else if $gradient-theme == br {
+            background: linear-gradient($direction, $gradient-blue-3, $gradient-red-1);
+        }
+    } @else {
+        background: linear-gradient($direction, $color1, $color2);
+    }
+}
+
+//CLASSES
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.orange {
+    color: $orange;
+}
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-tan {
+    background-color: $tan;
+}
+
+.bg-brown-10 {
+    background-color: $brown-10;
+}
+
+// Tones - Black to White
+.black {
+    color: $black;
+}
+.bg-black {
+    background-color: $black;
+}
+
+.bg-gray-lightest {
+    background-color: $gray-lightest;
+}
+
+.white {
+    color: $white;
+}
+.bg-white {
+    background-color: $white;
+}
+
+.bg-cool-gray-10 {
+    background-color: $cool-gray-10;
+}

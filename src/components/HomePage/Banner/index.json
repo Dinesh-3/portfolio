@@ -1,0 +1,15 @@
+{
+    "title": "Hi, I'm Dinesh",
+    "subTitle": "Frontend developer",
+    "description": "Elevating Digital Experiences through Expert Web Design and Development",
+    "links": [
+        {
+            "href": "https://www.linkedin.com/dinesh-3",
+            "className": "bx bxl-linkedin"
+        },
+        {
+            "href": "https://www.github.com/dinesh-3",
+            "className": "bx bxl-github"
+        }
+    ]
+}

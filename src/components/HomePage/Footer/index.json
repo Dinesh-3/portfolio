@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "href": "https://www.linkedin.com/in/dinesh-3",
+      "icon": "bxl-linkedin-square",
+      "name": "linkedin"
+    },
+    {
+      "href": "https://github.com/dinesh-3",
+      "icon": "bxl-github",
+      "name": "github"
+    },
+    {
+      "href": "https://www.instagram.com/dinesh_i_",
+      "icon": "bxl-instagram",
+      "name": "instagram"
+    }
+  ]
+}

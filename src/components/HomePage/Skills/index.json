@@ -1,0 +1,54 @@
+{
+  "title": "Skills",
+  "subTitle": "My technical level",
+  "state": {
+    "group": {
+      "frontend": true,
+      "backend": true
+    }
+  },
+  "groups": [
+    {
+      "id": "frontend",
+      "title": "Frontend developer",
+      "description": "More than 3 years",
+      "skills": [
+        {
+          "name": "CSS",
+          "percentage": 80
+        },
+        {
+          "name": "JavaScript",
+          "percentage": 70
+        },
+        {
+          "name": "React",
+          "percentage": 85
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend developer",
+      "description": "More than 2 years",
+      "skills": [
+        {
+          "name": "Node JS",
+          "percentage": 85
+        },
+        {
+          "name": "JavaScript",
+          "percentage": 80
+        },
+        {
+          "name": "Java",
+          "percentage": 80
+        },
+        {
+          "name": "SQL",
+          "percentage": 80
+        }
+      ]
+    }
+  ]
+}

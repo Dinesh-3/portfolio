@@ -1,0 +1,122 @@
+.qualification {
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+  }
+
+  .button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+  }
+
+  .button:hover {
+    color: var(--first-color);
+  }
+
+  .icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+  }
+
+  .data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+  }
+
+  .data.odd {
+    .empty {
+      order: 1;
+    }
+    .separator_line {
+      order: 2;
+    }
+    .container {
+      order: 3;
+    }
+  }
+
+  .title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+  }
+
+  .subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+  }
+
+  .calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    i {
+      margin-right: 0.25rem;
+    }
+  }
+
+  .rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+  }
+
+  .line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+  }
+
+  .qualification [data-content] {
+    display: none;
+  }
+
+  .active[data-content] {
+    display: block;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .button.active {
+    color: var(--first-color);
+  }
+
+  @media screen and (max-width: 350px) {
+    .data {
+      gap: 0.5rem;
+    }
+  }
+
+  @media screen and (min-width: 568px) {
+    .sections {
+      display: grid;
+      grid-template-columns: 0.6fr;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .tabs {
+      justify-content: center;
+    }
+
+    .button {
+      margin: 0 var(--mb-1);
+    }
+
+    .sections {
+      grid-template-columns: 0.5fr;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Contact Me",
+    "subTitle": "Get in touch",
+    "infos": [
+        {
+            "label": "Email",
+            "value": "dinesh3sde@gmail.com",
+            "icon": "bx-envelope"
+        },
+        {
+            "label": "Location",
+            "value": "Salem, Tamil Nadu, India",
+            "icon": "bx-current-location"
+        }
+    ]
+
+}

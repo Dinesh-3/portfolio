@@ -1,0 +1,23 @@
+{
+  "qualifications": [
+    {
+      "title": "Work",
+      "id": "work",
+      "icon": "bx-briefcase",
+      "steps": [
+        { "title": "Software Engineer", "subTitle": "Zolvit", "year": "08/2022 - Present" },
+        { "title": "Software Engineer", "subTitle": "Codingmart Technologies", "year": "01/2021 - 08/2022" },
+        { "title": "Software Engineer Intern", "subTitle": "Eunimart", "year": "06/2020 - 12/2020" }
+      ]
+    },
+    {
+      "title": "Education",
+      "id": "education",
+      "icon": "bx-id-card",
+      "steps": [
+        { "title": "Bachelor of Engineering", "subTitle": "Sri Shakthi Institute of Eng & Tech", "year": "2017 - 2021", "mark": { "label": "CGPA", "value": 7.45 } },
+        { "title": "Higher Secondary School", "subTitle": "Government Higher Secondary School", "year": "2017", "mark": { "label": "Percent", "value": "91.33" } }
+      ]
+    }
+  ]
+}

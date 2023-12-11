@@ -1,0 +1,22 @@
+{
+    "title": "About Me",
+    "subTitle": "My introduction",
+    "description": "Frontend developer, with extensive knowledge and years of experience, working in React JS, Next JS and Node JS web technologies.",
+    "infos": [
+        {
+            "title": "3+",
+            "wordOne": "Years",
+            "wordTwo": "experience"
+        },
+        {
+            "title": "6+",
+            "wordOne": "Completed",
+            "wordTwo": "project"
+        },
+        {
+            "title": "2+",
+            "wordOne": "Companies",
+            "wordTwo": "worked"
+        }
+    ]
+}
