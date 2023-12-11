@@ -14,8 +14,6 @@ const MetaHead = (props) => {
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
       <link rel='stylesheet' href='/assets/css/swiper-bundle.min.css' />
       <link rel='stylesheet' href='/assets/css/styles.css' />
-      <Script src='/assets/js/swiper-bundle.min.js' defer />
-      <Script src='/assets/js/main.js' defer />
     </Head>
   );
 };

@@ -22,6 +22,7 @@ const Testimonials = () => {
               role='group'
               aria-label='2 / 7'
               style={{ width: '360px', marginRight: '48px' }}
+              key={testimonial.name}
             >
               <div className='testimonial__data'>
                 <div className='testimonial__header'>

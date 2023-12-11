@@ -8,7 +8,7 @@ const Services = () => {
 
       <div className='services__container container grid'>
         {content.services.map((service) => (
-          <div className='services__content'>
+          <div className='services__content' key={service.service}>
             <div>
               <i className={`uil ${service.icon} services__icon`}></i>
               <h3 className='services__title'>{service.service}</h3>
