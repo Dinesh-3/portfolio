@@ -88,7 +88,6 @@ const Contacts = () => {
             <label htmlFor='' className={styles.label}>
               Message
             </label>
-            <textarea name='' id='' cols='0' rows='3' className={styles.input}></textarea>
             <input type='text' name='message' className={styles.input} onChange={handleInputChange} />
           </div>
 
