@@ -11,17 +11,20 @@ const contactSchema = Yup.object().shape({
   message: Yup.string().optional(),
 });
 
+const initState = { company: '', email: '', message: '' };
+
 const Contacts = () => {
-  const [state, setState] = useState({ company: '', email: '', message: '' });
-  const [error, setError] = useState({ company: false, email: false, message: false })
+  const [state, setState] = useState(initState);
+  const [error, setError] = useState({ company: false, email: false, message: false });
+  const [isLoading, setIsLoading] = useState(false);
 
   const validateForm = async () => {
     try {
       await contactSchema.validate(state);
       return true;
     } catch (error) {
-      const key = error.message.split(" ")[0];
-      setError(prev => ({...prev, [key]: true}));
+      const key = error.message.split(' ')[0];
+      setError((prev) => ({ ...prev, [key]: true }));
       console.log(error.message);
       return false;
     }
@@ -31,13 +34,14 @@ const Contacts = () => {
     const key = event.target.name;
     const value = event.target.value;
     setState((prev) => ({ ...prev, [key]: value }));
-    setError((prev) => ({ ...prev, [key]: false }))
+    setError((prev) => ({ ...prev, [key]: false }));
   };
 
   const handleSubmit = async () => {
     const isValid = await validateForm();
-    if(!isValid) return;
+    if (!isValid) return;
 
+    setIsLoading(true);
     const config = {
       method: 'post',
       url: `/api/contact`,
@@ -50,6 +54,9 @@ const Contacts = () => {
     } catch (error) {
       console.log(error);
       alert('Internal Server Error. Please try again later!');
+    } finally {
+      setIsLoading(false);
+      setState(initState);
     }
   };
 
@@ -72,15 +79,15 @@ const Contacts = () => {
         </div>
 
         <form action='' className={`${styles.form} grid`}>
-          <div className={`${styles.content} ${error.company ? styles.error: ''}`}>
+          <div className={`${styles.content} ${error.company ? styles.error : ''}`}>
             <label htmlFor='' className={styles.label}>
-              Company <b style={{color: 'red'}}>*</b>
+              Company <b style={{ color: 'red' }}>*</b>
             </label>
             <input type='text' name='company' className={styles.input} onChange={handleInputChange} />
           </div>
-          <div className={`${styles.content} ${error.email ? styles.error: ''}`}>
+          <div className={`${styles.content} ${error.email ? styles.error : ''}`}>
             <label htmlFor='' className={styles.label}>
-              Email <b style={{color: 'red'}}>*</b>
+              Email <b style={{ color: 'red' }}>*</b>
             </label>
             <input type='email' name='email' className={styles.input} onChange={handleInputChange} />
           </div>
@@ -94,7 +101,7 @@ const Contacts = () => {
           <div>
             <a className='button button--flex' onClick={handleSubmit}>
               Submit
-              <i className={`uil uil-message button__icon`}></i>
+              {isLoading ? <i class='bx bx-loader bx-spin button__icon'></i> : <i className={`uil uil-message button__icon`}></i>}
             </a>
           </div>
         </form>

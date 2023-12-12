@@ -12,17 +12,18 @@
       "id": "frontend",
       "title": "Frontend Development",
       "description": "More than 3 years",
+      "icon": "bx-code-alt",
       "skills": [
+        {
+          "name": "React",
+          "percentage": 85
+        },
         {
           "name": "CSS",
           "percentage": 80
         },
         {
           "name": "JavaScript",
-          "percentage": 85
-        },
-        {
-          "name": "React",
           "percentage": 85
         }
       ]
@@ -31,6 +32,7 @@
       "id": "backend",
       "title": "Backend development",
       "description": "More than 2 years",
+      "icon": "bxs-component",
       "skills": [
         {
           "name": "Node JS",
