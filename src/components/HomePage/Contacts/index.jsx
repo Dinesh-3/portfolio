@@ -80,19 +80,19 @@ const Contacts = () => {
 
         <form action='' className={`${styles.form} grid`}>
           <div className={`${styles.content} ${error.company ? styles.error : ''}`}>
-            <label htmlFor='' className={styles.label}>
+            <label className={styles.label}>
               Company <b style={{ color: 'red' }}>*</b>
             </label>
             <input type='text' name='company' className={styles.input} value={state.company} onChange={handleInputChange} />
           </div>
           <div className={`${styles.content} ${error.email ? styles.error : ''}`}>
-            <label htmlFor='' className={styles.label}>
+            <label className={styles.label}>
               Email <b style={{ color: 'red' }}>*</b>
             </label>
             <input type='email' name='email' className={styles.input} value={state.email} onChange={handleInputChange} />
           </div>
           <div className={styles.content}>
-            <label htmlFor='' className={styles.label}>
+            <label className={styles.label}>
               Message
             </label>
             <input type='text' name='message' className={styles.input} value={state.message} onChange={handleInputChange} />

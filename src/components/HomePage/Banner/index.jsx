@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 
 const Banner = () => {
   return (
-    <section className={`${styles.home} ${styles.section}`} id='home'>
+    <section className={`${styles.home} section`} id='home'>
       <div className={`${styles.container} container grid`}>
         <div className={`${styles.content} grid`}>
           <div className={styles.social}>

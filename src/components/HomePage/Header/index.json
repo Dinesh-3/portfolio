@@ -1,0 +1,9 @@
+{
+  "title": "Dinesh I",
+  "links": [
+    { "text": "Home", "href": "home", "icon": "uil-estate" },
+    { "text": "About", "href": "about", "icon": "uil-user" },
+    { "text": "Skills", "href": "skills", "icon": "uil-file-alt" },
+    { "text": "Contact Me", "href": "contact", "icon": "uil-message" }
+  ]
+}

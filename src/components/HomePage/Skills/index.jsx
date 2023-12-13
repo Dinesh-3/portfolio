@@ -19,7 +19,7 @@ const Skills = () => {
         {content.groups.map((group) => (
           <div className={`${styles.content} ${tabs[group.id] ? styles.open : styles.close}`} key={group.title}>
             <div className={styles.header} onClick={() => handleTabClick(group)}>
-              <p className={styles.icon}><i class={`bx ${group.icon}`}></i></p>
+              <p className={styles.icon}><i className={`bx ${group.icon}`}></i></p>
               <div>
                 <h1 className={styles.title}>{group.title}</h1>
                 <span className={styles.subtitle}>{group.subTitle}</span>

@@ -165,7 +165,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
+  padding: 4rem 0 2rem;
 }
 
 .section__title {
@@ -198,7 +198,6 @@ img {
 .header {
   width: 100%;
   position: fixed;
-  bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
@@ -234,14 +233,13 @@ img {
 
 @media screen and (max-width: 767px) {
   .nav__menu {
+    display: none;
     position: fixed;
-    bottom: -100%;
+    top: 46px;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
 }
@@ -283,7 +281,7 @@ img {
 
 /* show menu */
 .show-menu {
-  bottom: 0;
+  display: block;
 }
 
 /* Active link */
@@ -533,7 +531,7 @@ img {
   }
 
   .nav {
-    height: calc(var(--header-height) + 1.5rem);
+    height: var(--header-height);
     column-gap: 1rem;
   }
 
