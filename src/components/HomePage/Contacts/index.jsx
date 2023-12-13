@@ -62,7 +62,7 @@ const Contacts = () => {
 
   return (
     <section className={`${styles.contact} section`} id='contact'>
-      <div className='section__title'>{content.title}</div>
+      <h2 className='section__title'>{content.title}</h2>
       <span className='section__subtitle'>{content.subTitle}</span>
 
       <div className={`${styles.container} container grid`}>
@@ -83,19 +83,19 @@ const Contacts = () => {
             <label htmlFor='' className={styles.label}>
               Company <b style={{ color: 'red' }}>*</b>
             </label>
-            <input type='text' name='company' className={styles.input} onChange={handleInputChange} />
+            <input type='text' name='company' className={styles.input} value={state.company} onChange={handleInputChange} />
           </div>
           <div className={`${styles.content} ${error.email ? styles.error : ''}`}>
             <label htmlFor='' className={styles.label}>
               Email <b style={{ color: 'red' }}>*</b>
             </label>
-            <input type='email' name='email' className={styles.input} onChange={handleInputChange} />
+            <input type='email' name='email' className={styles.input} value={state.email} onChange={handleInputChange} />
           </div>
           <div className={styles.content}>
             <label htmlFor='' className={styles.label}>
               Message
             </label>
-            <input type='text' name='message' className={styles.input} onChange={handleInputChange} />
+            <input type='text' name='message' className={styles.input} value={state.message} onChange={handleInputChange} />
           </div>
 
           <div>
