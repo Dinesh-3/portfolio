@@ -2,11 +2,8 @@ import About from './About';
 import Banner from './Banner';
 import Header from './Header';
 import Skills from './Skills';
-import Services from './Services';
 import Qualification from './Qualification';
 import Portfolio from './Portfolio';
-import Projects from './Projects';
-import Testimonials from './Testimonials';
 import Contacts from './Contacts';
 import Footer from './Footer';
 
@@ -23,10 +20,7 @@ const HomePage = (props) => {
         <About />
         <Skills />
         <Qualification />
-        {false && <Services />}
         {false && <Portfolio />}
-        {false && <Projects />}
-        {false && <Testimonials />}
         <Contacts />
       </main>
       <Footer />
