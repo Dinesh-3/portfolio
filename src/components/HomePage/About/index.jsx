@@ -12,13 +12,14 @@ const About = () => {
 
         <div className={styles.data}>
           <p className={`${styles.description}`}>{content.description}</p>
-          <div className={`${styles.info}`}>
+          <div className={`${styles.infos}`}>
             {content.infos.map((info) => (
-              <div key={info.title}>
-                <span className={`${styles.infoTitle}`}>{info.title}</span>
-                <span className={`${styles.infoName}`}>
-                  {info.wordOne} <br /> {info.wordTwo}
-                </span>
+              <div key={info.title} className={styles.info}>
+                <div className={styles.count}>
+                  <i className={`bx ${info.icon}`} ></i>
+                  <h4 className={`${styles.infoTitle}`}>{info.title}</h4>
+                </div>
+                <p className={`${styles.infoName}`}>{info.wordOne} {info.wordTwo}</p>
               </div>
             ))}
           </div>

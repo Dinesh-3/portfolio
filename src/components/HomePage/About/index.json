@@ -6,17 +6,20 @@
         {
             "title": "3+",
             "wordOne": "Years",
-            "wordTwo": "experience"
+            "wordTwo": "experience",
+            "icon": "bx-briefcase"
         },
         {
             "title": "6+",
             "wordOne": "Completed",
-            "wordTwo": "project"
+            "wordTwo": "project",
+            "icon": "bx-task"
         },
         {
             "title": "2+",
             "wordOne": "Companies",
-            "wordTwo": "worked"
+            "wordTwo": "worked",
+            "icon": "bx-buildings"
         }
     ]
 }

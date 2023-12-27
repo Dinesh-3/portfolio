@@ -11,10 +11,27 @@
     margin-bottom: var(--mb-2-5);
   }
 
-  .info {
+  .infos {
     display: flex;
     justify-content: space-evenly;
+    gap: 0.5rem;
     margin-bottom: var(--mb-2-5);
+
+    .info {
+      padding: 1rem;
+      border-radius: 1rem;
+      background-color: #21546e;
+      text-align: center;
+      .count {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      i {
+        font-size: 1.5rem;
+        color: var(--first-color);
+      }
+    }
   }
 
   .infoTitle {
@@ -39,9 +56,9 @@
   }
 
   .btn {
-    gap: .5rem;
+    gap: 0.5rem;
     i {
-        font-size: 1.25rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -99,6 +116,15 @@
     .testimonial__description {
       text-align: center;
     }
+
+    .infos {
+      flex-direction: column;
+      .info {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
   }
 
   @media screen and (min-width: 568px) {
@@ -120,7 +146,7 @@
       text-align: initial;
     }
 
-    .info {
+    .infos {
       justify-content: space-between;
     }
 
