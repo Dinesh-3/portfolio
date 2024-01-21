@@ -13,18 +13,25 @@
       "title": "Frontend Development",
       "description": "More than 3 years",
       "icon": "bx-code-alt",
+      "color": "#61dafb",
       "skills": [
         {
           "name": "React",
-          "percentage": 85
+          "percentage": 85,
+          "icon": "bxl-react",
+          "color": "#61dafb"
         },
         {
           "name": "CSS",
-          "percentage": 80
+          "percentage": 80,
+          "icon": "bxl-css3",
+          "color": "#4e83ff"
         },
         {
           "name": "JavaScript",
-          "percentage": 85
+          "icon": "bxl-javascript",
+          "percentage": 85,
+          "color": "#f0db4f"
         }
       ]
     },
@@ -33,18 +40,25 @@
       "title": "Backend development",
       "description": "More than 2 years",
       "icon": "bxs-component",
+      "color": "#6cc24a",
       "skills": [
         {
           "name": "Node JS",
-          "percentage": 85
+          "icon": "bxl-nodejs",
+          "percentage": 85,
+          "color": "#68a063"
         },
         {
           "name": "Java",
-          "percentage": 80
+          "icon": "bxl-java",
+          "percentage": 80,
+          "color": "#86c5ef"
         },
         {
           "name": "SQL",
-          "percentage": 80
+          "icon": "bxs-data",
+          "percentage": 80,
+          "color": "#e44d26"
         }
       ]
     }

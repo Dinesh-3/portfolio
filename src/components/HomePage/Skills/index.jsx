@@ -31,7 +31,10 @@ const Skills = () => {
               {group.skills.map((skill) => (
                 <div className={styles.data} key={skill.name}>
                   <div className={styles.titles}>
-                    <h3 className={styles.name}>{skill.name}</h3>
+                    <div className={styles.skill}>
+                      <i style={{ color: skill.color }} className={`bx ${skill.icon}`}></i>
+                      <h3 className={styles.name}>{skill.name}</h3>
+                    </div>
                     <span className={styles.number}>{skill.percentage}%</span>
                   </div>
                   <div className={styles.bar}>
