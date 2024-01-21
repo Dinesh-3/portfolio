@@ -5,6 +5,7 @@
         "role": "Software Engineer",
         "company": "Zolvit",
         "year": "08/2022 - Present",
+        "location": "Chennai, India",
         "technologies": [
           {
             "name": "NextJS",
@@ -39,6 +40,7 @@
         "role": "Software Engineer",
         "company": "Codingmart Technologies",
         "year": "01/2021 - 08/2022",
+        "location": "Bengaluru, India",
         "technologies": [
           {
             "name": "ReactJS",
@@ -70,6 +72,7 @@
         "role": "Software Engineer Intern",
         "company": "Eunimart",
         "year": "06/2020 - 12/2020",
+        "location": "Hyderabad, India",
         "technologies": [
           {
             "name": "NodeJS",

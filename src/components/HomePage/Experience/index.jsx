@@ -15,8 +15,8 @@ const Experience = () => {
                 <h4>
                   {experience.company} | {experience.role}
                 </h4>
-                <p>{experience.year}</p>
               </div>
+              <p className={styles.subTitle}>{experience.year} | {experience.location}</p>
               <ul className={styles.points}>
                 {experience.points.map((point) => (
                   <li key={point.text}>
