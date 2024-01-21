@@ -26,13 +26,13 @@
         ],
         "points": [
           {
-            "text": "Worked on Helpdesk Ticket Application for agents in Next JS and various landing and onboarding pages in Next JS with SEO optimization"
+            "text": "Developed a Helpdesk Ticket Application for agents using Next.js, along with various landing and onboarding pages in Next.js optimized for SEO"
           },
           {
-            "text": "Worked on GRC web application for customers to track their services and status"
+            "text": "Contributed to the development of a GRC web application enabling customers to track their services and status"
           },
           {
-            "text": "Worked on Payment module integrated with stripe"
+            "text": "Implemented a Payment module integrated with Stripe"
           }
         ]
       },
@@ -61,10 +61,10 @@
         ],
         "points": [
           {
-            "text": "Developed Job Invoice, Spare Order, Service Reminder, PDF Invoice Modules"
+            "text": "Developed modules for Job Invoice, Spare Order, Service Reminder, and PDF Invoice"
           },
           {
-            "text": "Written maintainable business logics by following best practices and clean coding"
+            "text": "Implemented maintainable business logics adhering to best practices and clean coding principles"
           }
         ]
       },
@@ -93,10 +93,10 @@
         ],
         "points": [
           {
-            "text": "Worked on Marketplace and Logistics API integration (Flipkart, Wish, DHL)"
+            "text": "Contributed to Marketplace and Logistics API integration with platforms like Flipkart, Wish, and DHL"
           },
           {
-            "text": "Learned Unit Testing, Debugging, API integration concepts"
+            "text": "Acquired skills in Unit Testing, Debugging, and API integration concepts"
           }
         ]
       }

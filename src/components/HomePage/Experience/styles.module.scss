@@ -21,7 +21,7 @@
     }
 
     .subTitle {
-        font-size: .8rem;
+      font-size: 0.8rem;
     }
 
     .points {
@@ -30,7 +30,10 @@
       flex-direction: column;
       gap: 1rem;
       li {
+        display: flex;
+        gap: 0.5rem;
         b {
+          margin-top: -0.2rem;
           font-size: 1.25rem;
         }
       }
