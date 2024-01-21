@@ -1,12 +1,14 @@
+import { useEffect } from 'react';
+
 import About from './About';
 import Banner from './Banner';
 import Header from './Header';
 import Skills from './Skills';
 import Qualification from './Qualification';
+import Experience from './Experience';
 import Portfolio from './Portfolio';
 import Contacts from './Contacts';
 import Footer from './Footer';
-import { useEffect } from 'react';
 
 const HomePage = (props) => {
   const { content } = props;
@@ -31,6 +33,7 @@ const HomePage = (props) => {
         <About />
         <Skills />
         <Qualification />
+        <Experience />
         {false && <Portfolio />}
         <Contacts />
       </main>

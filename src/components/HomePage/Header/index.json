@@ -1,9 +1,10 @@
 {
   "title": "Dinesh I",
   "links": [
-    { "text": "Home", "href": "home", "icon": "uil-estate" },
-    { "text": "About", "href": "about", "icon": "uil-user" },
-    { "text": "Skills", "href": "skills", "icon": "uil-file-alt" },
-    { "text": "Contact Me", "href": "contact", "icon": "uil-message" }
+    { "text": "Home", "href": "home", "icon": "bx-home-alt" },
+    { "text": "About", "href": "about", "icon": "bx-user" },
+    { "text": "Skills", "href": "skills", "icon": "bx-file" },
+    { "text": "Experience", "href": "experience", "icon": "bx-briefcase" },
+    { "text": "Contact Me", "href": "contact", "icon": "bx-send" }
   ]
 }

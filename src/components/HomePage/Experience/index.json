@@ -1,0 +1,102 @@
+{
+    "title": "Experience",
+    "experiences": [
+      {
+        "role": "Software Engineer",
+        "company": "Zolvit",
+        "year": "08/2022 - Present",
+        "technologies": [
+          {
+            "name": "NextJS",
+            "color": "#0ba341"
+          },
+          {
+            "name": "ReactJS",
+            "color": "#008db3"
+          },
+          {
+            "name": "NodeJS",
+            "color": "#5bae00"
+          },
+          {
+            "name": "JavaScript",
+            "color": "#dec100"
+          }
+        ],
+        "points": [
+          {
+            "text": "Worked on Helpdesk Ticket Application for agents in Next JS and various landing and onboarding pages in Next JS with SEO optimization"
+          },
+          {
+            "text": "Worked on GRC web application for customers to track their services and status"
+          },
+          {
+            "text": "Worked on Payment module integrated with stripe"
+          }
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Codingmart Technologies",
+        "year": "01/2021 - 08/2022",
+        "technologies": [
+          {
+            "name": "ReactJS",
+            "color": "#008db3"
+          },
+          {
+            "name": "NodeJS",
+            "color": "#5bae00"
+          },
+          {
+            "name": "Postgresql",
+            "color": "#336791"
+          },
+          {
+            "name": "Java",
+            "color": "#b07219"
+          }
+        ],
+        "points": [
+          {
+            "text": "Developed Job Invoice, Spare Order, Service Reminder, PDF Invoice Modules"
+          },
+          {
+            "text": "Written maintainable business logics by following best practices and clean coding"
+          }
+        ]
+      },
+      {
+        "role": "Software Engineer Intern",
+        "company": "Eunimart",
+        "year": "06/2020 - 12/2020",
+        "technologies": [
+          {
+            "name": "NodeJS",
+            "color": "#5bae00"
+          },
+          {
+            "name": "JavaScript",
+            "color": "#dec100"
+          },
+          {
+            "name": "Python",
+            "color": "#0060b0"
+          },
+          {
+            "name": "MySQL",
+            "color": "#4479a1"
+          }
+        ],
+        "points": [
+          {
+            "text": "Worked on Marketplace and Logistics API integration (Flipkart, Wish, DHL)"
+          },
+          {
+            "text": "Learned Unit Testing, Debugging, API integration concepts"
+          }
+        ]
+      }
+    ]
+  }
+  
