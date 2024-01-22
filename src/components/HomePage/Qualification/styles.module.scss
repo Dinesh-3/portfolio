@@ -98,7 +98,6 @@
   @media screen and (min-width: 568px) {
     .sections {
       display: grid;
-      grid-template-columns: 0.6fr;
       justify-content: center;
     }
   }
@@ -110,10 +109,6 @@
 
     .button {
       margin: 0 var(--mb-1);
-    }
-
-    .sections {
-      grid-template-columns: 0.5fr;
     }
   }
 
