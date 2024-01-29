@@ -1,0 +1,35 @@
+{
+  "section": "Education",
+  "entries": [
+    {
+      "degree": "Bachelor of Engineering",
+      "institution": "Sri Shakthi Institute of Engineering and Technologies",
+      "year": "2017 - 2021",
+      "mark": {
+        "label": "CGPA",
+        "value": "7.45 / 10"
+      },
+      "location": "Coimbatore, India"
+    },
+    {
+      "degree": "Higher Secondary School",
+      "institution": "Government Higher Secondary School",
+      "year": "2015 - 2017",
+      "mark": {
+        "label": "Percentage",
+        "value": "91.33 / 100"
+      },
+      "location": "Salem, India"
+    },
+    {
+      "degree": "SSLC",
+      "institution": "Government Higher Secondary School",
+      "year": "2014 - 2015",
+      "mark": {
+        "label": "Percentage",
+        "value": "96.4 / 100"
+      },
+      "location": "Salem, India"
+    }
+  ]
+}
