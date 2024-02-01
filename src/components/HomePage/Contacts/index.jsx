@@ -101,7 +101,7 @@ const Contacts = () => {
           <div>
             <a className='button button--flex' onClick={handleSubmit}>
               Submit
-              {isLoading ? <i class='bx bx-loader bx-spin button__icon'></i> : <i className={`uil uil-message button__icon`}></i>}
+              {isLoading ? <i class='bx bx-loader bx-spin button__icon'></i> : <i className={`bx bx-send button__icon`}></i>}
             </a>
           </div>
         </form>
