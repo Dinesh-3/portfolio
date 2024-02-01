@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 const Education = () => {
   return (
-    <section className={`${styles.container} section`} id='education'>
+    <section className={`${styles.container} section`} id='educations'>
       <h2 className='section__title'>{content.section}</h2>
       {false && <span className='section__subtitle'>{content.subTitle}</span>}
       <div className={`${styles.container} container grid`}>

@@ -5,7 +5,7 @@
     { "text": "About", "href": "about", "icon": "bx-user" },
     { "text": "Skills", "href": "skills", "icon": "bx-file" },
     { "text": "Experience", "href": "experience", "icon": "bx-briefcase" },
-    { "text": "Education", "href": "education", "icon": "bx-id-card" },
+    { "text": "Education", "href": "educations", "icon": "bx-id-card" },
     { "text": "Contact", "href": "contact", "icon": "bx-send" }
   ]
 }
