@@ -35,7 +35,7 @@ const Skills = () => {
                       <i style={{ color: skill.color }} className={`bx ${skill.icon}`}></i>
                       <h3 className={styles.name}>{skill.name}</h3>
                     </div>
-                    <span className={styles.number}>{skill.percentage}%</span>
+                    {/* <span className={styles.number}>{skill.percentage}%</span> */}
                   </div>
                   <div className={styles.bar}>
                     <span className={`${styles.percentage} ${styles.html}`} style={{ width: `${skill.percentage}%` }}></span>

@@ -8,15 +8,15 @@
         "location": "Chennai, India",
         "technologies": [
           {
-            "name": "NextJS",
-            "color": "#0ba341"
-          },
-          {
             "name": "ReactJS",
             "color": "#008db3"
           },
           {
-            "name": "NodeJS",
+            "name": "Spring Boot",
+            "color": "#6db33f"
+          },
+          {
+            "name": "TypeScript",
             "color": "#5bae00"
           },
           {
@@ -26,13 +26,19 @@
         ],
         "points": [
           {
-            "text": "Developed a Helpdesk Ticket Application for agents using Next.js, along with various landing and onboarding pages in Next.js optimized for SEO"
+            "text": "Developed a Helpdesk Ticket Application using Next.js through streamlined workflows and intuitive UI"
           },
           {
-            "text": "Contributed to the development of a GRC web application enabling customers to track their services and status"
+            "text": "Integrated an e-signature workflow into the CRM, enabling senders to specify signature locations and request signatures via email. Implemented automated notifications for each signature, with the final signed PDF sent to the requester and updated in the CRM."
           },
           {
-            "text": "Implemented a Payment module integrated with Stripe"
+            "text": "Contributed to the development of a Helpdesk CRM application enabling customers to track their services and status"
+          },
+          {
+            "text": "Leveraged Next.js to implement event tracking, user analytics, and UI experiments to improve analytics using GrowthBook, Elasticsearch, and Moengage"
+          },
+          {
+            "text": "Mentored and guided 4+ interns in the team, providing guidance that resulted in improved performance and professional development."
           }
         ]
       },
@@ -47,24 +53,27 @@
             "color": "#008db3"
           },
           {
-            "name": "NodeJS",
-            "color": "#5bae00"
+            "name": "Java",
+            "color": "#b07219"
+          },
+          {
+            "name": "Spring",
+            "color": "#6db33f"
           },
           {
             "name": "Postgresql",
             "color": "#336791"
-          },
-          {
-            "name": "Java",
-            "color": "#b07219"
           }
         ],
         "points": [
           {
-            "text": "Developed modules for Job Invoice, Spare Order, Service Reminder, and PDF Invoice"
+            "text": "Developed 4 critical modules (Job Invoice, Spare Order, Service Reminder, PDF Invoice) in Autoinn project"
           },
           {
-            "text": "Implemented maintainable business logics adhering to best practices and clean coding principles"
+            "text": "Implemented maintainable business logic adhering to best practices while working on the Vehicle Insurance microservice at Digit Insurance (Contract)."
+          },
+          {
+            "text": "Contributed to the development of a Vehicle Insurance Policy API Service and Phonepe integration, at Godigit Insurance Company"
           }
         ]
       },
@@ -93,10 +102,13 @@
         ],
         "points": [
           {
-            "text": "Contributed to Marketplace and Logistics API integration with platforms like Flipkart, Wish, and DHL"
+            "text": "Spearheaded the integration of Marketplace and Logistics APIs with leading platforms like Flipkart, Wish, and shipping partners DHL and FedEx, driving logistics operations."
           },
           {
-            "text": "Acquired skills in Unit Testing, Debugging, and API integration concepts"
+            "text": "Worked on Pricing Service implemented in Flask framework, integrating with RabbitMQ events to automate pricing related tasks."
+          },
+          {
+            "text": "Acquired skills in Unit Testing, Debugging, API integration, clean code and best practices."
           }
         ]
       }

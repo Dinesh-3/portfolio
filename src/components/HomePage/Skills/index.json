@@ -4,10 +4,39 @@
   "state": {
     "group": {
       "frontend": true,
-      "backend": true
+      "backend": true,
+      "languages": true,
+      "databases": true
     }
   },
   "groups": [
+    {
+      "id": "languages",
+      "title": "Languages",
+      "description": "More than 3 years",
+      "icon": "bx-code",
+      "color": "#61dafb",
+      "skills": [
+        {
+          "name": "Java",
+          "icon": "bxl-java",
+          "percentage": 84,
+          "color": "#86c5ef"
+        },
+        {
+          "name": "Typescript",
+          "icon": "bxl-typescript",
+          "percentage": 80,
+          "color": "#449dff"
+      },
+        {
+            "name": "Javascript",
+            "icon": "bxl-javascript",
+            "percentage": 85,
+            "color": "yellow"
+        }
+      ]
+    },
     {
       "id": "frontend",
       "title": "Frontend Development",
@@ -16,10 +45,10 @@
       "color": "#61dafb",
       "skills": [
         {
-          "name": "React",
-          "percentage": 85,
-          "icon": "bxl-react",
-          "color": "#61dafb"
+            "name": "HTML",
+            "icon": "bxl-html5",
+            "percentage": 85,
+            "color": "red"
         },
         {
           "name": "CSS",
@@ -28,37 +57,64 @@
           "color": "#4e83ff"
         },
         {
-          "name": "JavaScript",
-          "icon": "bxl-javascript",
+          "name": "Sass",
+          "icon": "bxl-sass",
           "percentage": 85,
-          "color": "#f0db4f"
+          "color": "#bf4080"
         }
       ]
     },
     {
       "id": "backend",
-      "title": "Backend development",
+      "title": "Frameworks",
       "description": "More than 2 years",
       "icon": "bxs-component",
       "color": "#6cc24a",
       "skills": [
         {
+          "name": "Spring Boot",
+          "icon": "bxl-spring-boot",
+          "percentage": 87,
+          "color": "green"
+        },
+        {
+            "name": "React",
+            "percentage": 85,
+            "icon": "bxl-react",
+            "color": "#61dafb"
+        },
+        {
           "name": "Node JS",
           "icon": "bxl-nodejs",
-          "percentage": 85,
+          "percentage": 80,
+          "color": "#68a063"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "description": "",
+      "icon": "bxs-data",
+      "color": "#6cc24a",
+      "skills": [
+        {
+            "name": "MySQL",
+            "icon": "bxs-data",
+            "percentage": 85,
+            "color": "#e44d26"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "bxl-mongodb",
+          "percentage": 80,
           "color": "#68a063"
         },
         {
-          "name": "Java",
-          "icon": "bxl-java",
+          "name": "Redis",
+          "icon": "bx-data",
           "percentage": 80,
-          "color": "#86c5ef"
-        },
-        {
-          "name": "SQL",
-          "icon": "bxs-data",
-          "percentage": 80,
-          "color": "#e44d26"
+          "color": "red"
         }
       ]
     }

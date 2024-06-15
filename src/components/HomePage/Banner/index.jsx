@@ -9,7 +9,9 @@ const Banner = () => {
           <div className={styles.social}>
             {content.links.map((link) => (
               <a href={link.href} target='_blank' className={styles.socialIcon} key={link.href}>
-                <i className={link.className}></i>
+                {
+                  link.img ? <img src={link.img} width={'32'} /> : <i className={link.className}></i>
+                }
               </a>
             ))}
           </div>
