@@ -7,7 +7,6 @@ import Skills from './Skills';
 import Qualification from './Qualification';
 import Experience from './Experience';
 import Education from './Education';
-import Portfolio from './Portfolio';
 import Contacts from './Contacts';
 import Footer from './Footer';
 
@@ -36,7 +35,6 @@ const HomePage = (props) => {
         <Qualification />
         <Experience />
         <Education />
-        {false && <Portfolio />}
         <Contacts />
       </main>
       <Footer />

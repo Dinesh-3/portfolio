@@ -6,7 +6,7 @@ const Banner = () => {
     <section className={`${styles.home} section`} id='home'>
       <div className={`${styles.container} container grid`}>
         <div className={`${styles.content} grid`}>
-          <div className={styles.social}>
+          <div className={`${styles.social} opacityAnim`}>
             {content.links.map((link) => (
               <a href={link.href} target='_blank' className={styles.socialIcon} key={link.href}>
                 {
@@ -16,12 +16,12 @@ const Banner = () => {
             ))}
           </div>
 
-          <div className={styles.img}>
+          <div className={`${styles.img} slideFromRight`}>
             <div className={styles.background}></div>
             <img src='/assets/profile.png' />
           </div>
 
-          <div className={styles.data}>
+          <div className={`${styles.data} slideFromLeft`}>
             <h1 className={styles.title}>{content.title}</h1>
             <h3 className={styles.subtitle}>{content.subTitle}</h3>
             <p className={styles.description}>{content.description}</p>
