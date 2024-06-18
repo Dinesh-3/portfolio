@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Qualification from './Qualification';
 import Experience from './Experience';
 import Education from './Education';
+import Certifications from './Certifications';
 import Contacts from './Contacts';
 import Footer from './Footer';
 
@@ -35,6 +36,7 @@ const HomePage = (props) => {
         <Qualification />
         <Experience />
         <Education />
+        <Certifications />
         <Contacts />
       </main>
       <Footer />

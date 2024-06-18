@@ -35,6 +35,9 @@
             "text": "Contributed to the development of a Helpdesk CRM application enabling customers to track their services and status"
           },
           {
+            "text": "Developed a recurring invoice module that automatically sends invoice attachments to clients' emails based on the service start date"
+          },
+          {
             "text": "Leveraged Next.js to implement event tracking, user analytics, and UI experiments to improve analytics using GrowthBook, Elasticsearch, and Moengage"
           },
           {

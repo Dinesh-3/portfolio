@@ -1,9 +1,0 @@
-.next
-node_modules
-.husky
-.cache
-package-lock.json
-public
-next-env.d.ts
-next.config.ts
-yarn.lock
