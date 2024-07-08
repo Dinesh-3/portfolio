@@ -26,19 +26,13 @@
         ],
         "points": [
           {
-            "text": "Developed a Helpdesk Ticket Application using Next.js through streamlined workflows and intuitive UI"
+            "text": "Implemented a reliable recurring invoice module automating the email delivery of recurring invoices to clients. This enhancement led to a 20% increase in early payment conversion rates, significantly improving cash flow and operational efficiency."
           },
           {
-            "text": "Integrated an e-signature workflow into the CRM, enabling senders to specify signature locations and request signatures via email. Implemented automated notifications for each signature, with the final signed PDF sent to the requester and updated in the CRM."
+            "text": "Leveraged Next.js to implement event tracking, user analytics, and UI experiments, resulting in a 20% improvement in user engagement metrics and a 25% increase in conversion rates. Utilized GrowthBook, Elasticsearch, and Moengage for enhanced analytics and data-driven decision-making."
           },
           {
-            "text": "Contributed to the development of a Helpdesk CRM application enabling customers to track their services and status"
-          },
-          {
-            "text": "Developed a recurring invoice module that automatically sends invoice attachments to clients' emails based on the service start date"
-          },
-          {
-            "text": "Leveraged Next.js to implement event tracking, user analytics, and UI experiments to improve analytics using GrowthBook, Elasticsearch, and Moengage"
+            "text": "Integrated e-signature workflow within CRM to streamline document processes and enhance efficiency."
           },
           {
             "text": "Mentored and guided 4+ interns in the team, providing guidance that resulted in improved performance and professional development."
@@ -70,19 +64,13 @@
         ],
         "points": [
           {
-            "text": "Developed 4 critical modules (Job Invoice, Spare Order, Service Reminder, PDF Invoice) in Autoinn project"
+            "text": "Developed 4 critical modules (Job Invoice, Spare Order, Service Reminder, PDF Invoice) in Autoinn project. Honored with Employee of the Month for contributions to the Autoinn project"
           },
           {
-            "text": "Honored with Employee of the Month for contributions to the Autoinn project"
+            "text": "Implemented flash sale discount, enhanced NCB calculation logic, and modified the renewal eligibility criteria."
           },
           {
-            "text": "Implemented maintainable business logic adhering to best practices while working on the Vehicle Insurance microservice at Digit Insurance (Contract)."
-          },
-          {
-            "text": "Developed flash sale discount, enhanced NCB calculation logic, and modified the renewal eligibility criteria."
-          },
-          {
-            "text": "Contributed to the development of a Vehicle Insurance Policy API Service and Phonepe integration, at Godigit Insurance Company"
+            "text": "Contributed to the enhancement of a Vehicle Insurance Policy API Service and Phonepe integration, at Godigit Insurance Company (Contract)"
           }
         ]
       },
@@ -114,10 +102,10 @@
             "text": "Spearheaded the integration of Marketplace and Logistics APIs with leading platforms like Flipkart, Wish, and shipping partners DHL and FedEx, driving logistics operations."
           },
           {
-            "text": "Worked on Pricing Service implemented in Flask framework, integrating with RabbitMQ events to automate pricing related tasks."
+            "text": "Developed a Pricing Service using Python Flask framework, integrating with RabbitMQ events to automate pricing related tasks."
           },
           {
-            "text": "Acquired skills in Unit Testing, Debugging, API integration, clean code and best practices."
+            "text": "Acquired skills in Unit Testing, Debugging, and API integration, improving code quality."
           }
         ]
       }
