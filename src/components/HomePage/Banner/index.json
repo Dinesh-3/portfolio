@@ -10,10 +10,6 @@
         {
             "href": "https://www.github.com/dinesh-3",
             "className": "bx bxl-github"
-        },
-        {
-            "href": "https://leetcode.com/u/dineshi3/",
-            "img": "/assets/img/leetcode.svg"
         }
     ]
 }
